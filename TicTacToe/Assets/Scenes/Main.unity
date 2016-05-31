@@ -90,6 +90,7 @@ RectTransform:
   m_PrefabParentObject: {fileID: 22481964, guid: c59b81388e6549e4c817f227c1d9938d,
     type: 2}
   m_PrefabInternal: {fileID: 1521417777}
+<<<<<<< HEAD
 --- !u!1 &95078656
 GameObject:
   m_ObjectHideFlags: 0
@@ -158,6 +159,8 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 95078656}
+=======
+>>>>>>> 6abe9c39f1542053fb011943f4f0fe591f85e9ef
 --- !u!1001 &128340394
 Prefab:
   m_ObjectHideFlags: 0
@@ -624,6 +627,7 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 697850968}
+<<<<<<< HEAD
 --- !u!1 &748165128
 GameObject:
   m_ObjectHideFlags: 0
@@ -698,6 +702,8 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 748165128}
+=======
+>>>>>>> 6abe9c39f1542053fb011943f4f0fe591f85e9ef
 --- !u!114 &758688476 stripped
 MonoBehaviour:
   m_PrefabParentObject: {fileID: 11467158, guid: c59b81388e6549e4c817f227c1d9938d,
@@ -1160,7 +1166,10 @@ RectTransform:
   - {fileID: 585633084}
   - {fileID: 1778958651}
   - {fileID: 1420920156}
+<<<<<<< HEAD
   - {fileID: 95078657}
+=======
+>>>>>>> 6abe9c39f1542053fb011943f4f0fe591f85e9ef
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_AnchorMin: {x: 0, y: 0}
@@ -1759,12 +1768,18 @@ MonoBehaviour:
   playerX:
     panel: {fileID: 1778958652}
     text: {fileID: 1511478381}
+<<<<<<< HEAD
     button: {fileID: 1778958654}
   startInfo: {fileID: 95078656}
   playerO:
     panel: {fileID: 1420920157}
     text: {fileID: 912544330}
     button: {fileID: 1420920159}
+=======
+  playerO:
+    panel: {fileID: 1420920157}
+    text: {fileID: 912544330}
+>>>>>>> 6abe9c39f1542053fb011943f4f0fe591f85e9ef
   activePlayerColor:
     panelColor: {r: 0, g: .800000012, b: .800000012, a: 1}
     textColor: {r: 1, g: 0, b: .400000006, a: 1}

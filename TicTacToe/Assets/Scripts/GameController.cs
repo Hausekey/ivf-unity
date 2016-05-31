@@ -14,11 +14,17 @@ public class Player
 {
     public Image panel;
     public Text text;
+<<<<<<< HEAD
     public Button button;
 }
 public class GameController : MonoBehaviour {
     public Player playerX;
     public GameObject startInfo;
+=======
+}
+public class GameController : MonoBehaviour {
+    public Player playerX;
+>>>>>>> 6abe9c39f1542053fb011943f4f0fe591f85e9ef
     public Player playerO;
     public PlayerColor activePlayerColor;
     public PlayerColor inactivePlayerColor;
@@ -39,9 +45,17 @@ public class GameController : MonoBehaviour {
     void Awake()
     {
         moveCount = 0;
+<<<<<<< HEAD
         gameOverPanel.SetActive(false);
         SetGameControllerReferenceOnButtons();
         restartButton.SetActive(false);
+=======
+        playerSide = "X";
+        gameOverPanel.SetActive(false);
+        SetGameControllerReferenceOnButtons();
+        restartButton.SetActive(false);
+        SetPlayerColors(playerX, playerO);
+>>>>>>> 6abe9c39f1542053fb011943f4f0fe591f85e9ef
     }
 
     public string GetPlayerSide()
@@ -55,7 +69,10 @@ public class GameController : MonoBehaviour {
         if(winningPlayer == "draw")
         {
             SetGameOverText("It's a draw!");
+<<<<<<< HEAD
             SetPlayerColorsInactive();
+=======
+>>>>>>> 6abe9c39f1542053fb011943f4f0fe591f85e9ef
         }
         else
         {
@@ -130,7 +147,10 @@ public class GameController : MonoBehaviour {
         {
             SetPlayerColors(playerO, playerX);
         }
+<<<<<<< HEAD
         StartGame();
+=======
+>>>>>>> 6abe9c39f1542053fb011943f4f0fe591f85e9ef
     }
 
     void ChangeSides()
@@ -152,6 +172,7 @@ public class GameController : MonoBehaviour {
         gameOverText.text =  value;
     }
 
+<<<<<<< HEAD
     void SetPlayerButtons(bool toggle)
     {
         playerX.button.interactable = toggle;
@@ -162,14 +183,27 @@ public class GameController : MonoBehaviour {
         moveCount = 0;
         gameOverPanel.SetActive(false);
         
+=======
+    public void RestartGame()
+    {
+        playerSide = "X";
+        moveCount = 0;
+        gameOverPanel.SetActive(false);
+        SetBoardInteractable(true);
+>>>>>>> 6abe9c39f1542053fb011943f4f0fe591f85e9ef
         for (int i = 0; i < 9; i++)
         {
             buttonList[i].text = "";
         }
+<<<<<<< HEAD
         SetPlayerButtons(true);
         startInfo.SetActive(true);
         SetPlayerColorsInactive();
         restartButton.SetActive(false);
+=======
+        restartButton.SetActive(false);
+        SetPlayerColors(playerX, playerO);
+>>>>>>> 6abe9c39f1542053fb011943f4f0fe591f85e9ef
     }
 
     void SetBoardInteractable (bool toggle)
@@ -187,6 +221,7 @@ public class GameController : MonoBehaviour {
         oldPlayer.panel.color = inactivePlayerColor.panelColor;
         oldPlayer.text.color = inactivePlayerColor.textColor;
     }
+<<<<<<< HEAD
 
     void StartGame()
     {
@@ -201,4 +236,7 @@ public class GameController : MonoBehaviour {
         playerO.panel.color = inactivePlayerColor.panelColor;
         playerO.text.color = inactivePlayerColor.textColor;
     }
+=======
+  
+>>>>>>> 6abe9c39f1542053fb011943f4f0fe591f85e9ef
 }
