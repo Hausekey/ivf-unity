@@ -6,10 +6,7 @@ public class CreateSurvey : MonoBehaviour {
 	public Text myText;
     public void insertQuestion()
     {
-        for (int y = 0; y < 5; y++)
-        {
-            GameObject 
-        }
+
     }
 	public void setText(string text) {
 		if (myText == null) {
@@ -19,7 +16,7 @@ public class CreateSurvey : MonoBehaviour {
 			}
 
 		}
-		myText.text = text;
+//		myText.text = text;
 	}
 		
 	// Use this for initialization

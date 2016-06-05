@@ -3,18 +3,15 @@
 --- !u!129 &1
 PlayerSettings:
   m_ObjectHideFlags: 0
-<<<<<<< HEAD
   serializedVersion: 8
   AndroidProfiler: 0
   defaultScreenOrientation: 4
   targetDevice: 2
-=======
   serializedVersion: 7
   AndroidProfiler: 0
   defaultScreenOrientation: 4
   targetDevice: 2
   targetResolution: 0
->>>>>>> 15bcd234dff18703b5b29543fbd5dd243523063d
   useOnDemandResources: 0
   accelerometerFrequency: 60
   companyName: DefaultCompany
@@ -22,10 +19,7 @@ PlayerSettings:
   defaultCursor: {fileID: 0}
   cursorHotspot: {x: 0, y: 0}
   m_ShowUnitySplashScreen: 1
-<<<<<<< HEAD
   m_VirtualRealitySplashScreen: {fileID: 0}
-=======
->>>>>>> 15bcd234dff18703b5b29543fbd5dd243523063d
   defaultScreenWidth: 1024
   defaultScreenHeight: 768
   defaultScreenWidthWeb: 960
@@ -67,28 +61,25 @@ PlayerSettings:
   xboxEnableKinectAutoTracking: 0
   xboxEnableFitness: 0
   visibleInBackground: 0
-<<<<<<< HEAD
   allowFullscreenSwitch: 1
-=======
->>>>>>> 15bcd234dff18703b5b29543fbd5dd243523063d
   macFullscreenMode: 2
   d3d9FullscreenMode: 1
   d3d11FullscreenMode: 1
   xboxSpeechDB: 0
   xboxEnableHeadOrientation: 0
   xboxEnableGuest: 0
-<<<<<<< HEAD
+  n3dsDisableStereoscopicView: 0
+  n3dsEnableSharedListOpt: 1
+  n3dsEnableVSync: 0
   xboxEnablePIXSampling: 0
   n3dsDisableStereoscopicView: 0
   n3dsEnableSharedListOpt: 1
   n3dsEnableVSync: 0
   uiUse16BitDepthBuffer: 0
   ignoreAlphaClear: 0
-=======
   n3dsDisableStereoscopicView: 0
   n3dsEnableSharedListOpt: 1
   n3dsEnableVSync: 0
->>>>>>> 15bcd234dff18703b5b29543fbd5dd243523063d
   xboxOneResolution: 0
   ps3SplashScreen: {fileID: 0}
   videoMemoryForVertexBuffers: 0
@@ -139,10 +130,7 @@ PlayerSettings:
   iPhoneTargetOSVersion: 22
   uIPrerenderedIcon: 0
   uIRequiresPersistentWiFi: 0
-<<<<<<< HEAD
   uIRequiresFullScreen: 1
-=======
->>>>>>> 15bcd234dff18703b5b29543fbd5dd243523063d
   uIStatusBarHidden: 1
   uIExitOnSuspend: 0
   uIStatusBarStyle: 0
@@ -156,13 +144,10 @@ PlayerSettings:
   iPadHighResPortraitSplashScreen: {fileID: 0}
   iPadLandscapeSplashScreen: {fileID: 0}
   iPadHighResLandscapeSplashScreen: {fileID: 0}
-<<<<<<< HEAD
   appleTVSplashScreen: {fileID: 0}
   tvOSSmallIconLayers: []
   tvOSLargeIconLayers: []
   tvOSTopShelfImageLayers: []
-=======
->>>>>>> 15bcd234dff18703b5b29543fbd5dd243523063d
   iOSLaunchScreenType: 0
   iOSLaunchScreenPortrait: {fileID: 0}
   iOSLaunchScreenLandscape: {fileID: 0}
@@ -290,16 +275,14 @@ PlayerSettings:
   playerPrefsSupport: 0
   ps4ReprojectionSupport: 0
   ps4UseAudio3dBackend: 0
-<<<<<<< HEAD
+  ps4Audio3dVirtualSpeakerCount: 14
   ps4SocialScreenEnabled: 0
   ps4Audio3dVirtualSpeakerCount: 14
   ps4attribCpuUsage: 0
   ps4PatchPkgPath: 
   ps4PatchLatestPkgPath: 
   ps4PatchChangeinfoPath: 
-=======
   ps4Audio3dVirtualSpeakerCount: 14
->>>>>>> 15bcd234dff18703b5b29543fbd5dd243523063d
   ps4attribUserManagement: 0
   ps4attribMoveSupport: 0
   ps4attrib3DSupport: 0
@@ -356,13 +339,10 @@ PlayerSettings:
   spritePackerPolicy: 
   scriptingDefineSymbols: {}
   metroPackageName: TicTacToe
-<<<<<<< HEAD
-=======
   metroPackageLogo: 
   metroPackageLogo140: 
   metroPackageLogo180: 
   metroPackageLogo240: 
->>>>>>> 15bcd234dff18703b5b29543fbd5dd243523063d
   metroPackageVersion: 
   metroCertificatePath: 
   metroCertificatePassword: 
@@ -370,9 +350,7 @@ PlayerSettings:
   metroCertificateIssuer: 
   metroCertificateNotAfter: 0000000000000000
   metroApplicationDescription: TicTacToe
-<<<<<<< HEAD
   wsaImages: {}
-=======
   metroStoreTileLogo80: 
   metroStoreTileLogo: 
   metroStoreTileLogo140: 
@@ -411,7 +389,6 @@ PlayerSettings:
   metroPhoneSplashScreenImage: 
   metroPhoneSplashScreenImage140: 
   metroPhoneSplashScreenImage240: 
->>>>>>> 15bcd234dff18703b5b29543fbd5dd243523063d
   metroTileShortName: 
   metroCommandLineArgsFile: 
   metroTileShowName: 0
@@ -527,10 +504,8 @@ PlayerSettings:
   WebGL::emscriptenArgs: 
   WebGL::template: APPLICATION:Default
   additionalIl2CppArgs::additionalIl2CppArgs: 
-<<<<<<< HEAD
-=======
   firstStreamedSceneWithResources: 0
->>>>>>> 15bcd234dff18703b5b29543fbd5dd243523063d
+  firstStreamedSceneWithResources: 0
   cloudProjectId: 
   projectName: 
   organizationId: 
